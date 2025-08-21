@@ -1,2 +1,0 @@
-# jornal
-Aula de Web
