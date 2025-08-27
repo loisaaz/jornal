@@ -5,7 +5,8 @@
         <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
         <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
 
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="/styles/style.css"> <!-- css geral -->
+        <link rel="stylesheet" href="/styles/contactus.css"> <!-- css específico -->
         <title>PUC News</title>
     </head>
     <body>
@@ -30,41 +31,25 @@
             </div>
 
             <div id="content">
-                <div id="breaknews">
-                    <div class="breakNewEntry">
-                        <p>Noticia de Destaque 1</p>
-                    </div>
-                    <div class="breakNewsEntry">
-                        <p>Noticia de Destaque 2</p>
-                    </div>
-                </div>
-                <div id="miscNews">
-                    <div id="miscFirstColumn">
-                        <div class="miscEntry">
-                            <p>Noticia de Destaque 1 - coluna - 1</p>
-                        </div>
-                        <div class="miscEntry">
-                            <p>Noticia de Destaque 2 - coluna - 1</p>
-                        </div>
-                        <div class="miscEntry">
-                            <p>Noticia de Destaque 3 - coluna - 1</p>
-                        </div>
-                    </div>
+                <!-- Aqui vai nascer o nosso Formulário -->
 
-                    <div id="miscSecondColumn">
-                        <div class="miscEntry">
-                            <p>Noticia de Destaque 1 - coluna - 2</p>
-                        </div>
-                        <div class="miscEntry">
-                            <p>Noticia de Destaque 2 - coluna - 2</p>
-                        </div>
-                        <div class="miscEntry">
-                            <p>Noticia de Destaque 3 - coluna - 2</p>
-                        </div>
-                    </div>
 
-                </div>
-                <!--conteúdo da page principal-->
+                <!-- TAREFA DEIXAR O FORMULÁRIO BONITO, TROCAR INPUT DE MESSAGE POR TEXT AREA TAM 2000CARAC-->
+                <!-- PROVA SEMANA QUE VEM -> SEGUNDA NA PÓS-AULA -->
+
+
+                <h2>Contato</h2>
+                <p>Este é um canal exclusivo para você ser bem atendido(a),
+                    seja qual for o motivo do seu contato.</p>
+                    <p>No campo mensagem, escreva objetivamente o que lhe traz aqui.</p>
+                    <form method="post" action="#">
+                        <input type="text" id="name" placeholder="Seu nome"/><br>
+                        <input type="email" id="email" placeholder="Seu e-mail"/><br>
+                        <input type="text" id="message" placeholder="Digite aqui sua mensagem"/><br>
+                        <button >Enviar</button> <!-- -->
+                        <input type="submit" value="Enviar"/>
+                        <input type="reset" value="Limpar"/>
+                    </form>
             </div>
             <div id="footer">
                 <!--rodapé de lei-->

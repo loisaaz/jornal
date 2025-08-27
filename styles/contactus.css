@@ -1,0 +1,23 @@
+#content {
+    background-color: #fcfbfb;
+    padding: 20px;
+}
+
+#content input{
+    border: 1px solid darkgray;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+#content h2{
+    margin: 0;
+    padding: 0;
+}
+
+#content button{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(23, 63, 143);
+    color: white;
+    border: 2px solid rgb(16, 45, 102);
+}

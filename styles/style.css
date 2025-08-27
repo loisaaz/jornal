@@ -60,10 +60,49 @@ body{
 
 #content{
 
-    background-color: brown;
+    background-color: antiquewhite;
 }
 
 #footer{
 
     background-color: #f3f3f3;
+}
+
+#sitemap {
+    /*border: 2px solid blue;*/
+    display: inline-flex;
+    padding: 30px;
+    width: 100%;
+    
+}
+
+#sitemap ul{
+    list-style: none;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+    /*border: 2px solid red;*/
+    width: 33%;
+
+}
+
+#sitemap ul p{
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+#sitemap ul li {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#sitemap a{
+    color: black;
+    text-decoration: none;
+}
+
+#sitemap a:hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+
 }
